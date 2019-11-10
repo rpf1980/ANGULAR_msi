@@ -1,0 +1,11 @@
+<app-header (pasaBool)="recibeElDatoBool($event)"></app-header>
+<br>
+
+<div class="text-center">
+    <div class="colorModeRed" *ngIf="recibeBool">
+        <h1>CURSO DESARROLLO MULTIPLATAFORMA</h1>
+    </div>
+    <div class="colorModeGreen" *ngIf="!recibeBool">
+        <h1>CURSO DESARROLLO MULTIPLATAFORMA</h1>
+    </div>
+</div>
